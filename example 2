@@ -1,0 +1,23 @@
+
+/*
+ ============================================================================
+ Name        : array.c
+ Author      : Mariam Abdelmegid
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char s[] = "Programiz";
+    int i;
+
+    for (i = 0; s[i] != '\0'; ++i);
+    
+    printf("Length of the string: %d", i);
+    return 0;
+}
